@@ -1,7 +1,13 @@
 # Frontend web developer
 
-#### name: Mikalai Zharau
+1. #### Name: Nikolai Zharov
 
-#### date of birth: _1989_
+2. ##### Contacts for communication: mikola9993@gmail.com
 
-#### place of residence: Minsk
+3. ##### Place of residence: Minsk
+
+4. ##### Skills: I have experience in html, css, Shopify development
+
+5. ##### Education: Higher education (BSU)
+
+6. ##### English: A1
