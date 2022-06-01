@@ -1,7 +1,7 @@
-*#Frontend web developer
+# Frontend web developer
 
-*####Mikalai Zharau
+#### name: Mikalai Zharau
 
-*####date of birth: _1989_
+#### date of birth: _1989_
 
-*####place of residence: Minsk
+#### place of residence: Minsk
