@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
 }
 
 *,
@@ -72,7 +72,9 @@ body {
 	font-style: normal;
 	color: #333333;
 	background-color: #FFFFFF;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .container {
@@ -101,7 +103,7 @@ body {
 }
 
 .section {
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 .title {
@@ -136,8 +138,12 @@ body {
 	background-position: center center;
 }
 
-.name {
+.about__name-text {
 	margin-bottom: 20px;
+	color: #2F4F4F;
+	font-style: italic;
+	font-size: 45px;
+
 }
 
 .skills__inner {
@@ -154,13 +160,15 @@ body {
 	color: rgb(148, 135, 135);
 }
 
-.contacts__info{
+.contacts__info {
 	column-count: 2;
 }
-.contacts__info-text{
+
+.contacts__info-text {
 	color: #333333;
 }
-.contacts__info-link{
+
+.contacts__info-link {
 	color: blue;
 }
 
@@ -169,11 +177,39 @@ body {
 
 }
 
-.code-text{
-margin-right: 30px;
+.code-text {
+	margin-right: 30px;
 }
 
-.code-example{
+.code-example {
 	max-width: 500px;
 	color: blue;
+}
+
+.footer {
+	background: #333333;
+	height: 80px;
+
+}
+
+.footer__inner {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.footer__info {
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+.logo {
+	max-width: 100px;
+	width: 100%;
+}
+
+a:hover {
+	color: #b31212;
+	transition: color 0.3s;
 }
