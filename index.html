@@ -1,0 +1,171 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Frontend web developer</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+			rel="stylesheet">
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#about">
+								About me
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#skills">
+								Skills
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#contacts">
+								Contacts
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#code">
+								Code example
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+
+			<section class="about section" id="about">
+				<div class="container">
+					<h2 class="title">
+						About me
+					</h2>
+					<div class="about__inner">
+						<div class="about__name">
+							<h1 class="about__name-text">Nikolai Zharov</h1>
+							<h2>Frontend web developer</h2>
+							<p class="about__text">Hello! I am Frontend Developer with a huge expertise. I can make you a
+								layout from Figma, with a clean cross-browser valid code according to the BEM methodology,
+								I also adapt it for all mobile devices. <br> Also I've been working with Shopify (Liquid,
+								Shopify Plus, Shopify Theme, Shopify Template and other).
+								I will set up your Shopify store, install apps and upload products, help with promotion
+								your shopify store to increase sales and traffic also give you keywords to focus on, and
+								make sure you have everything that is required to be a successful E-commerce owner.
+							</p>
+						</div>
+						<div class="about__photo">
+							<img class="img" src="img/icon.jpeg" alt="ava">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="skills section" id="skills">
+				<div class="container">
+					<h2 class="title">
+						Skills:
+					</h2>
+					<div class="skills__inner">
+						<ul class="skills__skill">
+							<li class="skills__skill-title">Skills:</li>
+							<li class="skills__skill-text">Html</li>
+							<li class="skills__skill-text">Css, SCSS</li>
+							<li class="skills__skill-text">Javascript</li>
+							<li class="skills__skill-text">Liquid</li>
+						</ul>
+						<ul class="skills__skill">
+							<li class="skills__skill-title">Education:</li>
+							<li class="skills__skill-text">Course "Layout of sites from 0 to 1"</li>
+							<li class="skills__skill-text">RS school</li>
+							<li class="skills__skill-text">Self-education</li>
+						</ul>
+						<ul class="skills__skill">
+							<li class="skills__skill-title">Languages:</li>
+							<li class="skills__skill-text">English - A1</li>
+							<li class="skills__skill-text">Belarusian - Native</li>
+							<li class="skills__skill-text">Russian - Native</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="contacts section" id="contacts">
+				<div class="container">
+					<h2 class="title">
+						Contacts:
+					</h2>
+					<div class="contacts__inner">
+						<ul class="contacts__info">
+							<li class="contacts__info-text">
+								Email:
+								<a class="contacts__info-link" target="_blank" href="mailto:mikola9993@gmail.com">
+									mikola9993@gmail.com
+								</a>
+							</li>
+							<li class="contacts__info-text">
+								Phone:
+								<a class="contacts__info-link" href="tel:+995511246193">
+									+995511246193
+								</a>
+							</li>
+							<li class="contacts__info-text">
+								Github:
+								<a class="contacts__info-link" target="_blank" href="https://github.com/Nikolai-BY">
+									Nikolai-BY
+								</a>
+							</li>
+							<li class="contacts__info-text">
+								Location: Batumi, Georgia
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="code section" id="code">
+				<div class="container">
+					<h2 class="title">
+						Code example:
+					</h2>
+					<div class="code__inner">
+						<div class="code-text">An example of Liquid code:</div>
+						<code class="code-example">
+							{{ product | image_url: width: 100, height: 100 }}
+							{{ variant | image_url: width: 720, height: 720 }}
+							{{ line_item | image_url: width: 1024 }}
+						</code>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<p class="footer__info">
+						© 2022
+						<a class="footer__git" target="_blank" href="https://github.com/Nikolai-BY">Nikolai-BY</a>
+					</p>
+					<div class="logo">
+						<a class="logo__link" target="_blank" href="https://app.rs.school/">
+						<img src="img/logo.png" alt="logo">
+					</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+	</html>
